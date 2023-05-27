@@ -28,7 +28,7 @@ Before running this application, make sure you have the following installed on y
 4. Copy the .env.example file and rename it to .env. 
 
 5. Open the .env file and configure the database connection settings according to your environment. 
-6. 
+6. Configure your Oxford Api keys by adding "OXFORD_DICTIONARIES_APP_ID" and "OXFORD_DICTIONARIES_APP_KEY" to the .env file
 7. Run the database migrations to create the necessary tables:
     ```
     php artisan migrate

@@ -1,0 +1,10 @@
+.nav {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__link:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}

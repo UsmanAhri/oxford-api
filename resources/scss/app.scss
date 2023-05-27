@@ -1,0 +1,20 @@
+@use 'balm-ui/dist/balm-ui.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Components
+@import "components/nav";
+@import "components/t-block";
